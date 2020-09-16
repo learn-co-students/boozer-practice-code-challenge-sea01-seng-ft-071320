@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 
-const CocktailDisplay = (props) => {
+const CocktailDisplay = ({ name, description, instructions }) => {
   return (
     <div id="cocktail-display">
-      <h1>{/* Cocktail Name */}</h1>
-      <h3>{/* Cocktail Description */}</h3>
-      <p>{/* Cocktail Instructions */}</p>
+      <h1>{name}</h1>
+      <h3>{description}</h3>
+      <p>{instructions}</p>
     </div>
-  )
-}
+  );
+};
 
-export default CocktailDisplay
+export default CocktailDisplay;

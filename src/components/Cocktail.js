@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Cocktail = (props) => {
+const Cocktail = ({ name, id }) => {
   return (
-    <li></li>
+    <li key={id}>{name}</li>
   )
 }
 
